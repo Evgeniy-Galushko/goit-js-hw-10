@@ -3,16 +3,38 @@
 
 <head>
   <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/goit-js-hw-10/favicon.svg" />
+  <link rel="icon" type="" href="/goit-js-hw-10/assets/icons8-3d-58-1-DobIIYEr.png" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>goit-js-hw-10</title>
   <script type="module" crossorigin src="/goit-js-hw-10/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
-  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar-B9kkWxtF.css">
+  <script type="module" crossorigin src="/goit-js-hw-10/assets/vendor-BbbuE1sJ.js"></script>
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/vendor-CZjNVMTf.css">
+  <link rel="stylesheet" crossorigin href="/goit-js-hw-10/assets/2-snackbar-BNOOJqmx.css">
 </head>
 
 <body>
-<section>
+  <a class="go-back" href="./index.html">&#9664; Go back</a>
+<section class="section-form"> 
+  <form class="form">
+    <label class="form-lable">
+      Delay (ms)
+      <input type="number" name="delay" required />
+    </label>
   
+    <fieldset>
+      <legend>State</legend>
+      <label>
+        <input type="radio" name="state" value="fulfilled" required />
+        Fulfilled
+      </label>
+      <label>
+        <input type="radio" name="state" value="rejected" required />
+        Rejected
+      </label>
+    </fieldset>
+  
+    <button type="submit">Create notification</button>
+  </form>
   
   </section>
 </body>
