@@ -23,7 +23,7 @@ function enteredTime(event) {
       backgroundColor: '#59A10D',
       position: 'center',
       title: ' OK',
-      iconUrl: '../img/bi_check2-circle.svg',
+      iconUrl: 'src/img/bi_check2-circle.svg',
       message: `✅ Fulfilled promise in ${time} ms`,
     });
   });
@@ -32,7 +32,7 @@ function enteredTime(event) {
       backgroundColor: '#EF4040',
       position: 'center',
       title: 'Error',
-      iconUrl: '../img/bi_x-octagon.svg',
+      iconUrl: 'src/img/bi_x-octagon.svg',
       message: `❌ Rejected promise in ${time} ms`,
     });
   });
