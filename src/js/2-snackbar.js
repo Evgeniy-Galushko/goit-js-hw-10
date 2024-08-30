@@ -1,7 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
-const oks = `../img/bi_check2-circle.svg`;
-const err = `../img/bi_x-octagon.svg`;
+import oks from '../img/bi_check2-circle.svg';
+import err from '../img/bi_x-octagon.svg';
 
 const form = document.querySelector('.form');
 
