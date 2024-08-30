@@ -1,5 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+const oks = `../img/bi_check2-circle.svg`;
+const err = `../img/bi_x-octagon.svg`;
 
 const form = document.querySelector('.form');
 
@@ -23,7 +25,7 @@ function enteredTime(event) {
       backgroundColor: '#59A10D',
       position: 'center',
       title: ' OK',
-      iconUrl: 'src/img/bi_check2-circle.svg',
+      iconUrl: oks,
       message: `✅ Fulfilled promise in ${time} ms`,
     });
   });
@@ -32,7 +34,7 @@ function enteredTime(event) {
       backgroundColor: '#EF4040',
       position: 'center',
       title: 'Error',
-      iconUrl: 'src/img/bi_x-octagon.svg',
+      iconUrl: err,
       message: `❌ Rejected promise in ${time} ms`,
     });
   });
