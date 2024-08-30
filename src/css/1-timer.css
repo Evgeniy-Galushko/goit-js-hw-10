@@ -82,6 +82,7 @@ border-color: #000;
   width: 75px;
   height: 42px;
   border: none;
+  margin-bottom: 32px;
   background-color: #cfcfcf;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
@@ -103,7 +104,6 @@ border-color: #000;
 }
 
 .timer{ 
-  margin-top: 32px;
   display: flex;
   flex-direction: row;
   gap: 24px;
